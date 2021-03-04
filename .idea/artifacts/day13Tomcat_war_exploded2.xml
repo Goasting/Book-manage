@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day13Tomcat:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/day13Tomcat_war_exploded2</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day13Tomcat" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="module" name="JUnit4" module-name="day13Tomcat" />
+          <element id="library" level="project" name="commons-beanutils-1.8.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Tomcat/web/Web" />
+    </root>
+  </artifact>
+</component>
